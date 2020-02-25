@@ -1,4 +1,4 @@
-{% set version = '0.3.2' %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/taxa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/taxa/taxa_{{ version }}.tar.gz
-  sha256: 9efdd6c0db7320a4dcc675718bc8f4edfe99d03d9d8f29aab9eaaa779d772ece
+  sha256: 4822db83bfed738aec4456f54e3722f0a0aff38f9f3896e4640ca87f7b45a287
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -61,9 +61,8 @@ about:
   home: https://github.com/ropensci/taxa
   license: MIT
   license_file: LICENSE
-  summary: Provides taxonomic classes for groupings of taxonomic names without data, and those
-    with data. Methods provided are "taxonomically aware", in that they know about ordering
-    of ranks, and methods that filter based on taxonomy also filter associated data.
+  summary: Provides taxonomic classes for groupings of taxonomic names without data, and those with data. Methods provided are "taxonomically aware", in that they
+    know about ordering of ranks, and methods that filter based on taxonomy also filter associated data.
   license_family: MIT
 
 extra:
