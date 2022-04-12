@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/taxa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/taxa/taxa_{{ version }}.tar.gz
-  sha256: fe93fe40b0636ed786e10a2a1231fe1b4c134e0ca0d73c775ddffc488ccda54c
+  sha256: c35f83a2315c43220f7a54df29e8b0f91d46311cb0905074d36f7622fe8b63ed
 
 build:
   merge_build_host: true  # [win]
