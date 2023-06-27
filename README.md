@@ -1,11 +1,11 @@
-About r-taxa
-============
+About r-taxa-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-taxa-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/taxa
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-taxa-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides taxonomic classes for groupings of taxonomic names without data, and those with data. Methods provided are "taxonomically aware", in that they know about ordering of ranks, and methods that filter based on taxonomy also filter associated data.
 
